@@ -1,30 +1,32 @@
 # redmine_reveal
 將 Redmine wiki 內容變成簡報的模組
 
-This plugin was inspired by the [redmine-presentation plugin](https://github.com/florentsolt/redmine-presentation), with which is almost compatible.
+這模組靈感來自於 [redmine-presentation plugin](https://github.com/florentsolt/redmine-presentation)與之相容且用法大致相同.
 
-Presentations are build around the excellent [revealjs](https://github.com/hakimel/reveal.js/) Javascript library.
+簡報架構在非常優秀的 [revealjs](https://github.com/hakimel/reveal.js/) Javascript 函式庫.
 
 ## 最低需求
 
-- Requires v3.0.0+. Tested with Redmine v3.1.4, v3.2.4, v3.3.3 and v3.4.0.
+- Redmine的版本至少要 v3.0.0 以上，測試過可以運作的 Redmine 版本有 v3.1.4, v3.2.4, v3.3.3 及 v3.4.0.
 
 ## 安裝
 
-- install the `redmine_reveal` plugin:
+- 安裝 `redmine_reveal` 外掛模組：
 
       cd $REDMINE_HOME/plugins
       git clone https://github.com/mikitex70/redmine_reveal.git
 
-- restart Redmine to load the new plugin
+註： `$REDMINE_HOME` 為你主機Redmine的目錄，如： `/home/redmine/redmine/plugins`
+
+- 重新啟動 Redmine 以載入 redmine_reveal 模組
 
 ## 使用
 
-There are five macros that can be used to transform wiki pages in presentations.
+目前有五個巨集(marco)可以將 wiki 頁面轉換為簡報
 
-Some macros have a button on the editor toolbar; this buttons will open a dialog to insert the macro text in an easy way, helping to set the desired options.
+安裝本外掛後，你會發現在編輯視窗的工具列上新增了幾個快速鍵，使用這些快速鍵可以讓你輕易開啟一個對話框，設定相關參數值，並將巨集插入本文中，可以幫助你快速設定巨集。
 
-Placing the cursor on a macro body and clicking on the correct macro button, the dialog will open again with fields pre-filled from the macro parameters. This can simplify changing parameter values (there are a lot of options).
+若要修改巨集，可以將編輯游標移到巨集內再按快速鍵，對話框內的會自動帶入原巨集的參數，以便做修改。
 
 ### `slide`
 
