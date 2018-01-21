@@ -5,11 +5,11 @@ This plugin was inspired by the [redmine-presentation plugin](https://github.com
 
 Presentations are build around the excellent [revealjs](https://github.com/hakimel/reveal.js/) Javascript library.
 
-## Requirements
+## 最低需求
 
 - Requires v3.0.0+. Tested with Redmine v3.1.4, v3.2.4, v3.3.3 and v3.4.0.
 
-## Installation
+## 安裝
 
 - install the `redmine_reveal` plugin:
 
@@ -18,7 +18,7 @@ Presentations are build around the excellent [revealjs](https://github.com/hakim
 
 - restart Redmine to load the new plugin
 
-## Usage
+## 使用
 
 There are five macros that can be used to transform wiki pages in presentations.
 
